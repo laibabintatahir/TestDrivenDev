@@ -24,53 +24,38 @@ This project demonstrates the implementation of test-driven development (TDD) pr
 ### `getBooksByAuthor` Method
 
 1. **Test with an author that has books:**
-    - Verify that the method returns the correct books for an author with known books.
 
 2. **Test with an author that has no books:**
-    - Ensure the method returns an empty list for an author with no books.
 
 3. **Test with null or empty author string:**
-    - Check that the method handles null or empty author string gracefully.
 
 4. **Test with an author that has multiple books:**
-    - Confirm that the method returns all books for an author with multiple books.
 
 5. **Test with special characters in the author's name:**
-    - Validate that the method correctly handles author names with special characters.
 
 ### `getBooksByTitle` Method
 
 1. **Test with a title that has books:**
-    - Verify that the method returns the correct books for a title with known books.
 
 2. **Test with a title that has no books:**
-    - Ensure the method returns an empty list for a title with no books.
 
 3. **Test with null or empty title string:**
-    - Check that the method handles null or empty title string gracefully.
 
 4. **Test with a title that has multiple books:**
-    - Confirm that the method returns all books for a title with multiple books.
 
 5. **Test with special characters in the title:**
-    - Validate that the method correctly handles titles with special characters.
 
 ### `getBooksByAuthorAndTitle` Method
 
 1. **Test with a valid author and title combination:**
-    - Verify that the method returns the correct books for a valid author and title combination.
 
 2. **Test with a valid author but invalid title:**
-    - Ensure the method returns an empty list for a valid author but an invalid title.
 
 3. **Test with an invalid author but valid title:**
-    - Confirm that the method returns an empty list for an invalid author but a valid title.
 
 4. **Test with both invalid author and title:**
-    - Check that the method returns an empty list for both invalid author and title.
 
-5. **Test with an author and title combination that appears multiple times:**
-    - Validate that the method returns all books for an author and title combination that appears multiple times.
+5. **Test with an author and title combination that appears multiple times:**.
 
 ## Running the Tests
 
